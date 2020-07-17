@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ProLab" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ProLab" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ProLab" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="bit_op.h" />
+		<Unit filename="bit_stream.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="bit_stream.h" />
+		<Unit filename="bit_vec.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="bit_vec.h" />
+		<Unit filename="deflate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="deflate.h" />
+		<Unit filename="deflate_compressed.txt" />
+		<Unit filename="deflate_decompressed.txt" />
+		<Unit filename="hash_table.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="hash_table.h" />
+		<Unit filename="huffman.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="huffman.h" />
+		<Unit filename="limited_list.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="limited_list.h" />
+		<Unit filename="lz77_compressed.txt" />
+		<Unit filename="lz77_decompressed.txt" />
+		<Unit filename="lz_element.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lz_element.h" />
+		<Unit filename="lz_queue.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lz_queue.h" />
+		<Unit filename="lz_types.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ornek.txt" />
+		<Unit filename="util.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="util.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
